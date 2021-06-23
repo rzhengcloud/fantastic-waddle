@@ -20,6 +20,7 @@
   },
   "scripts": {
     "client-install": "npm install --prefix client",
+    "build": "cd client && react-scripts build",
     "start": "react-scripts start",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
